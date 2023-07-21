@@ -4,7 +4,7 @@ def count():
     c = 0
     try:
         while True:
-            a = pickle.load()
+            a = pickle.load(fp)
     
             c +=1
     except:
